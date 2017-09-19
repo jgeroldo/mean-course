@@ -4,6 +4,7 @@
   "description": "MEAN Full Stack Application ",
   "main": "app.js",
   "scripts": {
+    "start": "node app.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -18,5 +19,11 @@
   "bugs": {
     "url": "https://github.com/jgeroldo/mean-course/issues"
   },
-  "homepage": "https://github.com/jgeroldo/mean-course#readme"
+  "homepage": "https://github.com/jgeroldo/mean-course#readme",
+  "dependencies": {
+    "express": "^4.15.4"
+  },
+  "devDependencies": {
+    "mocha": "^3.5.3"
+  }
 }
